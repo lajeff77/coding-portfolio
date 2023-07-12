@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectSection from '../components/ProjectSection'
 
 const Homepage = () => {
   return (
@@ -6,8 +7,7 @@ const Homepage = () => {
         <body>
             <h2 id='about'>About me</h2>
             <p>This is about me.</p>
-            <h2 id='projects'>Projects</h2>
-            <p>These are my projects.</p>
+            <ProjectSection />
             <h2 id='contact'>Contact</h2>
             <p>You can contact me here.</p>
         </body>
