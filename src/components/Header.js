@@ -1,5 +1,4 @@
 import { AppBar, Button, Link, Stack, Toolbar, Typography } from '@mui/material'
-import { useNavigate } from 'react-router-dom'
 import React from 'react'
 
 const Header = () => {
