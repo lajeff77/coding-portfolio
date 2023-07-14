@@ -5,7 +5,7 @@ import { Box, Typography } from '@mui/material'
 
 const ProjectSection = () => {
 
-const project_components = projectsData.map(p => <Project name={p.name} date={p.date} description={p.description} link={p.link}/>)
+const project_components = projectsData.map(p => <Project name={p.name} date={p.date} description={p.description} link={p.link} imgPath={p.imgPath} imgAlt={p.imgAlt}/>)
 
 return (
     <Box sx={{px: 3, py: 1}}>
