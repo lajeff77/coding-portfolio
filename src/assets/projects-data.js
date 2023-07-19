@@ -3,7 +3,7 @@ let projectsData = [
     id: 1,
     name: "Notes",
     description:
-      "This project is a re-imagination of the notes app on iPhone, built out in React 18.",
+      "This project is a re-imagination of the notes app on iPhone, built out in React 18. In the local development environment, you can create, remove, update, and delete notes.",
     link: "https://github.com/lajeff77/notes",
     imgPath: "/assets/images/notes-screenshot.png",
     imgAlt: "screenshot of notes app"

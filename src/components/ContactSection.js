@@ -3,11 +3,11 @@ import React from 'react'
 
 const ContactSection = () => {
   return (
-    <Box  sx={{px: 3, py: 1}}>
-        <Typography variant='h2' id='contact'>Contact</Typography>
-        <Typography variant='body1'>Email: lajeff77@gmail.com</Typography>
-        <Typography variant='body1'><Link href="https://github.com/lajeff77/">GitHub Profile</Link></Typography>
-        <Typography variant='body1'><Link href=" https://www.linkedin.com/in/lauryn-jefferson/">LinkedIn Profile</Link></Typography>
+    <Box  sx={{px: 10, py: 10, background: "#9CA3DB"}}>
+        <Typography variant='h2' id='contact' sx={{py:5}}>Contact</Typography>
+        <Typography variant='body1' sx={{py:1}}>Email: lajeff77@gmail.com</Typography>
+        <Typography variant='body1' sx={{py:1}}><Link href="https://github.com/lajeff77/">GitHub Profile</Link></Typography>
+        <Typography variant='body1' sx={{py:1}}><Link href=" https://www.linkedin.com/in/lauryn-jefferson/">LinkedIn Profile</Link></Typography>
     </Box>
   )
 }

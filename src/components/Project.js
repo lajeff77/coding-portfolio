@@ -1,16 +1,20 @@
-import { Box, Link, Paper, Typography } from '@mui/material'
+import { Box, Link, Card, Typography, CardContent, CardMedia } from '@mui/material'
 // import NotesImg from '../assets/notes-screenshot.png'
 import React, { useEffect, useState } from 'react'
 
 const Project = ({name, description, link, imgPath, imgAlt}) => {
   return (
     <Box sx={{my: 2}}>
-      <Paper variant="outlined" elevation={3} sx={{p: 3}}>
-        <Typography variant='h3'>{name}</Typography>
-        <img src={imgPath} alt={imgAlt} style={{width: '90%'}}/>
-        <Typography variant='body1'>{description}</Typography>
-        <Typography variant='body1'>View <Link href={link}>here</Link> on GitHub</Typography>
-      </Paper>
+      <Card variant="outlined" sx={{p: 3, background:'#f9fbf2' }} alignItems="center">
+        <CardContent align="center" sx={{margin:'none', p: 3}} >
+          <Typography variant='h3'>{name}</Typography>
+        </CardContent>
+        <CardMedia component="img" src={imgPath} alt={imgAlt} style={{width: '90%', margin:'auto'}}/>
+        <CardContent>
+          <Typography variant='body1'>{description}</Typography>
+          <Typography variant='body1'>View this project <Link href={link}>here</Link> on GitHub</Typography>
+        </CardContent>
+      </Card>
     </Box>
   )
 }
