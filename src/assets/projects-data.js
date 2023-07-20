@@ -12,7 +12,7 @@ let projectsData = [
     id: 2,
     name: "Rubik's Simulator",
     description:
-      "This is a Java Application that simulates the famous puzzle of Erno Rubik in 2d.",
+      "This is a Java Application that simulates the famous puzzle of Erno Rubik in 2d. The interface includes buttons to manipulate the cube with face turns and rotations and even an input field to insert algorithms.",
     link: "https://github.com/lajeff77/Rubiks-Simulator",
     imgPath: "/assets/images/rubiks-simulator-screenshot.png",
     imgAlt: "screenshot of notes app"
@@ -21,7 +21,7 @@ let projectsData = [
     id: 3,
     name: "Shoot Em' Up",
     description:
-      "A charming 2d Space Shooter built in plain old Java.",
+      "Shoot Em' Up is a charming 2d space shooter built in plain old Java. The object of the game is to shoot oncoming rocks in space. It was my first solo project. I created all the art and background music as well.",
     link: "https://github.com/lajeff77/Shoot-Em-Up",
     imgPath: "/assets/images/shoot-em-up-screenshot.png",
     imgAlt: "screenshot of notes app"
